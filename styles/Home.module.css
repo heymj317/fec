@@ -1,0 +1,123 @@
+.container {
+  padding: 0 2rem;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+/* Below is for the reservations_box */
+
+.reservations_box {
+  float: right;
+  border-radius: 12px;
+  width: 300px;
+  height: 400px;
+  border: 1px solid grey;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-size: small;
+}
+
+.price {
+  margin-right: 25px;
+  font-size: 20px;
+  float: left;
+}
+
+.stars {
+  float: right;
+}
+
+.check_in {
+  width: 100px;
+  padding: 10px;
+  border-color: grey;
+}
+
+.check_out {
+  width: 100px;
+  padding: 10px;
+  border-color: grey;
+}
+
+.form {
+  float: center;
+  padding-right: 30px;
+}
+
+.reserve_button {
+  float: center;
+  width: 80%;
+  height: 50px;
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  border-color: red;
+}
+
+.leftrespan {
+  float: left;
+}
+
+.rightrespan {
+  float: right;
+}
+
+.calendar {
+  float: left;
+}
+
+.guestEntry {
+  margin: 1px grey;
+  padding: 10px;
+}
+
+.spacer {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* Above is for the reservations_box */

@@ -1,0 +1,102 @@
+.reviewModal {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    z-index: 1000;
+    width: 55vw;
+    height: 80vh;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    /* overflow: scroll; */
+    border-radius: 15px;
+    min-width: 500px
+}
+
+.modalOverlay {
+    display: flex;
+
+    flex-direction: column;
+    position: fixed;
+    opacity: .3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: grey;
+    z-index: 1000;
+    overflow: scroll;
+}
+
+.button {
+    display: flex;
+    position: relative;
+    margin-top: -4%;
+    margin-bottom: 1%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    /* font-weight: bold; */
+    font-size: 1.2rem;
+    font-family: monospace;
+    background-color: white;
+    border-radius: 15px;
+    justify-content: center;
+    align-content: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgba(92, 92, 92, 0.15)
+}
+
+.search {
+    display: flex;
+    position: relative;
+    bottom: 85%;
+    left: 50%;
+    width: 50%;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-top: -20px;
+}
+
+.search:focus {
+    outline: 1px solid black;
+}
+
+.header {
+    width: 100%;
+    height: fit-content;
+}
+
+.ratings {
+    display: flex;
+    text-align: center;
+
+    flex-direction: column;
+    margin-top: 15px;
+    display: flex;
+    width: 40%;
+    height: 95%;
+    border: 1px solid black;
+}
+
+.comments {
+    margin-top: 15px;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column-reverse;
+    height: fit-content;
+
+}
+
+.paragraph {
+    margin-left: 40px;
+    position: static;
+}

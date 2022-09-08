@@ -1,0 +1,49 @@
+.body {
+    display: inline-flex;
+    flex-direction: column;
+    width: 90vw;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.container {
+    display: inline-flex;
+    height: 500px;
+    width: 1150px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5px;
+    top: 2%;
+
+}
+
+.bigImage {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.header {
+    position: relative;
+    margin-bottom: -3px;
+}
+
+.desc {
+    position: relative;
+}
+
+.shareButton {
+    position: absolute;
+    margin-left: 560px;
+    background-color: white;
+    border: 0px;
+    cursor: pointer;
+}
+
+.saveButton {
+    position: absolute;
+    margin-left: 620px;
+    background-color: white;
+    border: 0px;
+    cursor: pointer;
+}

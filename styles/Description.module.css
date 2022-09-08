@@ -1,0 +1,82 @@
+.Description {
+  background: rgba(255, 255, 255, 0.8);
+  width: 30%;
+  /* height: 50vh; */
+  /* position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.Description p {
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.button {
+  width: 210px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: transform 0.05s ease-out;
+  font-weight: bold;
+  font-size: large;
+}
+
+.button:hover {
+  background-color: rgb(243, 243, 243);
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:active {
+  transform: scale(0.96);
+}
+
+.link {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 30px;
+}
+
+.link u {
+  font-weight: bold;
+  font-size: large;
+}
+
+.link u:hover {
+  cursor: pointer;
+}
+
+.propSpecs {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 15px;
+}
+
+.readout {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  max-height: 250px;
+  /* text-overflow: ellipsis; */
+  overflow: hidden;
+  line-height: 24px;
+  padding-bottom: 5px;
+}
+
+.readout p {
+  text-overflow: ellipsis;
+}
+
+.readout li {
+  font-size: large;
+  list-style-type: circle;
+  text-overflow: clip;
+  margin-left: -15px;
+}
+
+.expander {
+  margin-top: 5px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 15px;
+}

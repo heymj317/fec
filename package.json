@@ -1,0 +1,42 @@
+{
+  "name": "fec",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.14.3",
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@heroicons/react": "^2.0.10",
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.2",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "head": "^1.0.0",
+    "heroicons-react": "^1.4.1",
+    "killport": "^1.0.2",
+    "next": "12.2.5",
+    "nextjs": "^0.0.3",
+    "postgres": "^3.2.4",
+    "psql": "^0.0.1",
+    "react": "^18.2.0",
+    "react_ujs": "2.6.2",
+    "react-date-range": "^1.4.0",
+    "react-dom": "^18.2.0",
+    "react-static-google-map": "^0.9.0"
+  },
+  "devDependencies": {
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
