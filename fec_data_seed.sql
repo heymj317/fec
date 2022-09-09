@@ -50,9 +50,9 @@ INSERT INTO properties (title, price, specs, about, prop_space, guest, other, nu
                 'Although not actually built on trees, we call this place the treehouse because of its unique design as an octagon house perched high on a pedestal surrounded by the forest - you’ll feel like you’re in a treehouse. Upon entering the Treehouse you will find the beautiful living space with comfortable seating, wood burning stove, and floor to ceiling windows to take in the views of the ever-changing Colorado landscape.', 
                 'The driveway is steep. We don’t want you to be surprised when you arrive. We recommend bringing a vehicle with good clearance and good tires, preferably 4 wheel drive. When you get to the driveway, put your car in 1st gear and and don’t pause before driving up and you’ll be just fine!', 
                 'The Treehouse is ideal for mature adults who are looking for a peaceful getaway to connect with each other and with nature. We do have neighbors who are full time residents, and we care deeply about ensuring the area remains quiet and peaceful for them. We do not allow parties or gatherings above the specified number of guests in the reservation. Please plan accordingly.',
-                '1313 mockingbird lane',
-                'VA',
-                '22306', 
+                '3636 FM813',
+                'TX',
+                '75165', 
                 '{"ameniGroups":
                   [
                     {"title": "Scenic Views", "values": ["Mountain view", "Ocean View"]}, 
