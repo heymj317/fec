@@ -16,8 +16,6 @@ export default function Map(props) {
         console.log("fec map component: no property data");
     } else {
         address = encodeURIComponent(props.location.number_street + ', ' + props.location.us_state + " " + props.location.zip);
-        console.log('address: ', address);
-        console.log('key: ', apiKey);
         axios({
             method: 'get',
             url: `https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=${apiKey}`,
